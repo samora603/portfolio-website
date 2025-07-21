@@ -7,23 +7,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Rapper Website",
+      title: "Lyrical Verse",
       description: "A responsive, visually dynamic website for a musician, featuring a video gallery and modern UI built with React and Tailwind CSS. Includes smooth animations, mobile-first design, and optimized performance.",
       image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design"],
-      liveUrl: "#",
-      githubUrl: "#",
-      featured: true,
+      liveUrl: "https://lyrical-verse.vercel.app/",
+      githubUrl: "https://github.com/samora603/lyrical-verse",
+      featured: false,
       date: "2024"
     },
     {
       id: 2,
-      title: "AI Chat Interface",
-      description: "Modern chat interface powered by AI, featuring real-time messaging, dark/light themes, and intuitive user experience. Built with React and integrated with AI APIs.",
+      title: "Swift",
+      description: "A clean, responsive website for a moving and cleaning service, designed with React and Tailwind CSS. Features include service-based pricing, smooth navigation, and a mobile-first layout optimized for user experience and clarity.",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
       technologies: ["React", "AI Integration", "Real-time", "TypeScript"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://swift-movers.vercel.app/",
+      githubUrl: "https://github.com/samora603/swift-movers.git",
       featured: false,
       date: "2024"
     },
